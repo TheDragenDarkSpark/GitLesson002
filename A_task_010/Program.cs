@@ -16,6 +16,16 @@ int GetNumber(int a_count)
     return second_number;
 }
 
+Console.WriteLine("Вывод второй цифры из числа 456: ");
+Console.WriteLine(GetNumber(456));
+
+Console.WriteLine("Вывод второй цифры из числа 782: ");
+Console.WriteLine(GetNumber(782));
+
+Console.WriteLine("Вывод второй цифры из числа 456: ");
+Console.WriteLine(GetNumber(918));
+
+
 Console.WriteLine("Введите число: ");
 string first_data = Console.ReadLine();
 
